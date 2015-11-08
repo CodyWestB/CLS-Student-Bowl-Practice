@@ -14,13 +14,13 @@ D:\Documents\College\Year 4\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS
 D:\Documents\College\Year 4\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice.pdb
 D:\Documents\College\Year 4\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\obj\Debug\GameSelect.g.cs
 D:\Documents\College\Year 4\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\obj\Debug\GameSelect.baml
-D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\bin\Debug\CLS Student Bowl Practice.exe.config
-D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice.exe
-D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice.pdb
-D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice.csprojResolveAssemblyReference.cache
-D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\GameSelect.g.cs
-D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\MainWindow.g.cs
-D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\QuestionSelect.g.cs
-D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\App.g.cs
-D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice_MarkupCompile.cache
-D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice_MarkupCompile.lref
+C:\Users\Ye Old Hitman\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\bin\Debug\CLS Student Bowl Practice.exe.config
+C:\Users\Ye Old Hitman\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice.exe
+C:\Users\Ye Old Hitman\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice.pdb
+C:\Users\Ye Old Hitman\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice.csprojResolveAssemblyReference.cache
+C:\Users\Ye Old Hitman\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\GameSelect.g.cs
+C:\Users\Ye Old Hitman\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\MainWindow.g.cs
+C:\Users\Ye Old Hitman\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\QuestionSelect.g.cs
+C:\Users\Ye Old Hitman\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\App.g.cs
+C:\Users\Ye Old Hitman\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice_MarkupCompile.cache
+C:\Users\Ye Old Hitman\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice_MarkupCompile.lref
