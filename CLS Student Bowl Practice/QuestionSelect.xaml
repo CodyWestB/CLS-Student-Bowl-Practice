@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="QuestionSelect" Height="500" Width="750">
     <Grid>
-        <Label x:Name="lblTimeRemaining" Content="Time Remaining" HorizontalAlignment="Left" Margin="609,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <!--<Label x:Name="lblTimeRemaining" Content="Time Remaining" HorizontalAlignment="Left" Margin="609,10,0,0" VerticalAlignment="Top" FontSize="16"/>
         <TextBlock x:Name="tbTimeLeft" HorizontalAlignment="Left" Margin="618,46,0,0" TextWrapping="Wrap" Text="30:00" VerticalAlignment="Top" Width="95" FontSize="16"/>
         <Label x:Name="lbl5" Content="5" HorizontalAlignment="Left" Margin="152,96,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Button x:Name="btnBlood5" Content="Blood Bank" HorizontalAlignment="Left" Margin="81,132,0,0" VerticalAlignment="Top" Width="157" FontSize="16"/>
@@ -41,7 +41,7 @@
         <TextBox x:Name="txtScoreA" HorizontalAlignment="Left" Height="23" Margin="324,416,0,0" TextWrapping="Wrap" Text="888" VerticalAlignment="Top" Width="35" FontSize="16"/>
         <Label x:Name="lblTeamB" Content="Team B" HorizontalAlignment="Left" Margin="372,412,0,0" VerticalAlignment="Top" FontSize="16"/>
         <TextBox x:Name="txtScoreB" HorizontalAlignment="Left" Height="23" Margin="442,416,0,0" TextWrapping="Wrap" Text="888" VerticalAlignment="Top" Width="35" FontSize="16"/>
-        <Button x:Name="button" Content="End Game" HorizontalAlignment="Left" Margin="647,434,0,0" VerticalAlignment="Top" Width="85" FontSize="16"/>
+        <Button x:Name="btnEnd" Content="End Game" HorizontalAlignment="Left" Margin="647,434,0,0" VerticalAlignment="Top" Width="85" FontSize="16"/>-->
 
     </Grid>
 </Window>
