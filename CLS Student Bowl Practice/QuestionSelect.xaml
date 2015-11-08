@@ -36,8 +36,12 @@
         <Button x:Name="btnImmunology20" Content="Immunology" HorizontalAlignment="Left" Margin="498,282,0,0" VerticalAlignment="Top" Width="157" FontSize="16"/>
         <Button x:Name="btnLab20" Content="Lab Operations" HorizontalAlignment="Left" Margin="498,312,0,0" VerticalAlignment="Top" Width="157" FontSize="16"/>
         <Button x:Name="btnMicro20" Content="Micro/Parasit/Mycol" HorizontalAlignment="Left" Margin="498,342,0,0" VerticalAlignment="Top" Width="157" FontSize="16"/>
-        <Label x:Name="lblScore" Content="Score:" HorizontalAlignment="Left" Margin="136,428,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <Label x:Name="lblTeamA" Content="Team A" HorizontalAlignment="Left" Margin="194,428,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="lblScore" Content="Score:" HorizontalAlignment="Left" Margin="196,412,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="lblTeamA" Content="Team A" HorizontalAlignment="Left" Margin="254,412,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="txtScoreA" HorizontalAlignment="Left" Height="23" Margin="324,416,0,0" TextWrapping="Wrap" Text="888" VerticalAlignment="Top" Width="35" FontSize="16"/>
+        <Label x:Name="lblTeamB" Content="Team B" HorizontalAlignment="Left" Margin="372,412,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="txtScoreB" HorizontalAlignment="Left" Height="23" Margin="442,416,0,0" TextWrapping="Wrap" Text="888" VerticalAlignment="Top" Width="35" FontSize="16"/>
+        <Button x:Name="button" Content="End Game" HorizontalAlignment="Left" Margin="647,434,0,0" VerticalAlignment="Top" Width="85" FontSize="16"/>
 
     </Grid>
 </Window>

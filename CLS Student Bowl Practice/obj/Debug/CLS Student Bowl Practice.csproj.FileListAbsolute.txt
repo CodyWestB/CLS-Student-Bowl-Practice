@@ -14,3 +14,6 @@ D:\Documents\College\Year 4\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS
 D:\Documents\College\Year 4\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice.pdb
 D:\Documents\College\Year 4\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\obj\Debug\GameSelect.g.cs
 D:\Documents\College\Year 4\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\obj\Debug\GameSelect.baml
+D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\bin\Debug\CLS Student Bowl Practice.exe.config
+D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice.exe
+D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice.pdb
