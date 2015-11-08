@@ -19,9 +19,18 @@ namespace CLS_Student_Bowl_Practice
     /// </summary>
     public partial class Question : Window
     {
+        private QuestionSelect category = null;
+
+
         public Question()
         {
             InitializeComponent();
+        }
+
+        internal QuestionSelect getNewCategory()
+        {
+            this.ShowDialog();
+            return category;
         }
     }
 }
