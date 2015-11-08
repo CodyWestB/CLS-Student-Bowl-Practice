@@ -21,6 +21,8 @@ namespace CLS_Student_Bowl_Practice
     {
         private MainWindow game = null;
 
+        public static int gameNumber;
+
         public GameSelect()
         {
             InitializeComponent();
@@ -68,6 +70,94 @@ namespace CLS_Student_Bowl_Practice
         private void btnExit_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
+        }
+
+        private void btn1_Click(object sender, RoutedEventArgs e)
+        {
+            gameNumber = 1;
+
+            this.Visibility = Visibility.Collapsed;
+            QuestionSelect newQuestion = new QuestionSelect();
+            GameSelect question = newQuestion.getNewQuestion();
+            this.Visibility = Visibility.Visible;
+            this.ShowDialog();
+        }
+
+        private void btn2_Click(object sender, RoutedEventArgs e)
+        {
+            gameNumber = 2;
+
+            this.Visibility = Visibility.Collapsed;
+            QuestionSelect newQuestion = new QuestionSelect();
+            GameSelect question = newQuestion.getNewQuestion();
+            this.Visibility = Visibility.Visible;
+            this.ShowDialog();
+        }
+
+        private void btn3_Click(object sender, RoutedEventArgs e)
+        {
+            gameNumber = 3;
+
+            this.Visibility = Visibility.Collapsed;
+            QuestionSelect newQuestion = new QuestionSelect();
+            GameSelect question = newQuestion.getNewQuestion();
+            this.Visibility = Visibility.Visible;
+            this.ShowDialog();
+        }
+
+        private void btn4_Click(object sender, RoutedEventArgs e)
+        {
+            gameNumber = 4;
+
+            this.Visibility = Visibility.Collapsed;
+            QuestionSelect newQuestion = new QuestionSelect();
+            GameSelect question = newQuestion.getNewQuestion();
+            this.Visibility = Visibility.Visible;
+            this.ShowDialog();
+        }
+
+        private void btn5_Click(object sender, RoutedEventArgs e)
+        {
+            gameNumber = 5;
+
+            this.Visibility = Visibility.Collapsed;
+            QuestionSelect newQuestion = new QuestionSelect();
+            GameSelect question = newQuestion.getNewQuestion();
+            this.Visibility = Visibility.Visible;
+            this.ShowDialog();
+        }
+
+        private void btn6_Click(object sender, RoutedEventArgs e)
+        {
+            gameNumber = 6;
+
+            this.Visibility = Visibility.Collapsed;
+            QuestionSelect newQuestion = new QuestionSelect();
+            GameSelect question = newQuestion.getNewQuestion();
+            this.Visibility = Visibility.Visible;
+            this.ShowDialog();
+        }
+
+        private void btn7_Click(object sender, RoutedEventArgs e)
+        {
+            gameNumber = 7;
+
+            this.Visibility = Visibility.Collapsed;
+            QuestionSelect newQuestion = new QuestionSelect();
+            GameSelect question = newQuestion.getNewQuestion();
+            this.Visibility = Visibility.Visible;
+            this.ShowDialog();
+        }
+
+        private void btn8_Click(object sender, RoutedEventArgs e)
+        {
+            gameNumber = 8;
+
+            this.Visibility = Visibility.Collapsed;
+            QuestionSelect newQuestion = new QuestionSelect();
+            GameSelect question = newQuestion.getNewQuestion();
+            this.Visibility = Visibility.Visible;
+            this.ShowDialog();
         }
     }
 }

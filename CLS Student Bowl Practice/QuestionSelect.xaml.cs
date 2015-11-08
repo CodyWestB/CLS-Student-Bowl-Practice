@@ -19,9 +19,17 @@ namespace CLS_Student_Bowl_Practice
     /// </summary>
     public partial class QuestionSelect : Window
     {
+        private GameSelect question = null;
+
         public QuestionSelect()
         {
             InitializeComponent();
+        }
+        
+        internal GameSelect getNewQuestion()
+        {
+            this.ShowDialog();
+            return question;
         }
     }
 }
