@@ -57,8 +57,6 @@ namespace CLS_Student_Bowl_Practice
             {
                 lblYear.Content = "Year D";
             }
-
-
         }
 
         internal MainWindow getNewGame()
