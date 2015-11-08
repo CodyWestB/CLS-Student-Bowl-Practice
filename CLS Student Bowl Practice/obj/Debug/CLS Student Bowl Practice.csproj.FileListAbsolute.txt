@@ -14,19 +14,3 @@ D:\Documents\College\Year 4\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS
 D:\Documents\College\Year 4\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice.pdb
 D:\Documents\College\Year 4\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\obj\Debug\GameSelect.g.cs
 D:\Documents\College\Year 4\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\obj\Debug\GameSelect.baml
-C:\Users\Ye Old Hitman\Downloads\Chase\CLS Quiz Bowl Practice\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\bin\Debug\CLS Student Bowl Practice.exe.config
-C:\Users\Ye Old Hitman\Downloads\Chase\CLS Quiz Bowl Practice\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice.exe
-C:\Users\Ye Old Hitman\Downloads\Chase\CLS Quiz Bowl Practice\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice.pdb
-C:\Users\Ye Old Hitman\Downloads\Chase\CLS Quiz Bowl Practice\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\bin\Debug\CLS Student Bowl Practice.exe
-C:\Users\Ye Old Hitman\Downloads\Chase\CLS Quiz Bowl Practice\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\bin\Debug\CLS Student Bowl Practice.pdb
-C:\Users\Ye Old Hitman\Downloads\Chase\CLS Quiz Bowl Practice\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice.csprojResolveAssemblyReference.cache
-C:\Users\Ye Old Hitman\Downloads\Chase\CLS Quiz Bowl Practice\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\obj\Debug\GameSelect.g.cs
-C:\Users\Ye Old Hitman\Downloads\Chase\CLS Quiz Bowl Practice\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\obj\Debug\MainWindow.g.cs
-C:\Users\Ye Old Hitman\Downloads\Chase\CLS Quiz Bowl Practice\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\obj\Debug\App.g.cs
-C:\Users\Ye Old Hitman\Downloads\Chase\CLS Quiz Bowl Practice\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice_MarkupCompile.cache
-C:\Users\Ye Old Hitman\Downloads\Chase\CLS Quiz Bowl Practice\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice_MarkupCompile.lref
-C:\Users\Ye Old Hitman\Downloads\Chase\CLS Quiz Bowl Practice\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\obj\Debug\GameSelect.baml
-C:\Users\Ye Old Hitman\Downloads\Chase\CLS Quiz Bowl Practice\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\obj\Debug\MainWindow.baml
-C:\Users\Ye Old Hitman\Downloads\Chase\CLS Quiz Bowl Practice\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice.g.resources
-C:\Users\Ye Old Hitman\Downloads\Chase\CLS Quiz Bowl Practice\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\obj\Debug\CLS_Student_Bowl_Practice.Properties.Resources.resources
-C:\Users\Ye Old Hitman\Downloads\Chase\CLS Quiz Bowl Practice\CLS Quiz Bowl Practice\CLS Student Bowl Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice.csproj.GenerateResource.Cache
