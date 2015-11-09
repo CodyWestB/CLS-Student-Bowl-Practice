@@ -20,8 +20,7 @@ namespace CLS_Student_Bowl_Practice
     /// </summary>
     public partial class MainWindow : Window
     {
-        public static int year;
-        public static int type;
+        public static string[] selectedQuestion = new[] { "0", "0", "0", "0", "0", "0" };
 
         public MainWindow()
         {
@@ -40,28 +39,28 @@ namespace CLS_Student_Bowl_Practice
         {
             if (cmbYear.SelectedItem.ToString() == "Year A")
             {
-                year = 1;
+                selectedQuestion[0] = "Year A";
             }
 
             if (cmbYear.SelectedItem.ToString() == "Year B")
             {
-                year = 2;
+                selectedQuestion[0] = "Year B";
             }
 
             if (cmbYear.SelectedItem.ToString() == "Year C")
             {
-                year = 3;
+                selectedQuestion[0] = "Year C";
             }
 
             if (cmbYear.SelectedItem.ToString() == "Year D")
             {
-                year = 4;
+                selectedQuestion[0] = "Year D";
             }
         }
 
         private void btnMLS_Click(object sender, RoutedEventArgs e)
         {
-            type = 1;
+            selectedQuestion[1] = "MLS";
 
             this.Visibility = Visibility.Collapsed;
             GameSelect newGame = new GameSelect();
@@ -72,7 +71,7 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnMLT_Click(object sender, RoutedEventArgs e)
         {
-            type = 2;
+            selectedQuestion[1] = "MLT";
 
             this.Visibility = Visibility.Collapsed;
             GameSelect newGame = new GameSelect();

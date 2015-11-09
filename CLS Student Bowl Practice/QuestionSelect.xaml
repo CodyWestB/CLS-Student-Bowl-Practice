@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CLS_Student_Bowl_Practice"
         mc:Ignorable="d"
-        Title="QuestionSelect" Height="500" Width="750">
+        Title="QuestionSelect" Height="500" Width="750"
+        Loaded="questionSelect_onLoad">
     <Grid>
         <Label x:Name="lblTimeRemaining" Content="Time Remaining" HorizontalAlignment="Left" Margin="609,10,0,0" VerticalAlignment="Top" FontSize="16"/>
         <TextBlock x:Name="tbTimeLeft" HorizontalAlignment="Left" Margin="618,46,0,0" TextWrapping="Wrap" Text="30:00" VerticalAlignment="Top" Width="95" FontSize="16"/>
@@ -42,6 +43,8 @@
         <Label x:Name="lblTeamB" Content="Team B" HorizontalAlignment="Left" Margin="372,412,0,0" VerticalAlignment="Top" FontSize="16"/>
         <TextBox x:Name="txtScoreB" HorizontalAlignment="Left" Height="23" Margin="442,416,0,0" TextWrapping="Wrap" Text="888" VerticalAlignment="Top" Width="35" FontSize="16"/>
         <Button x:Name="btnEnd" Content="End Game" HorizontalAlignment="Left" Margin="647,434,0,0" VerticalAlignment="Top" Width="85" FontSize="16"/>
+        <Label x:Name="lblType" Content="###" HorizontalAlignment="Left" Margin="299,32,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label x:Name="lblYear" Content="Year #" HorizontalAlignment="Left" Margin="384,32,0,0" VerticalAlignment="Top" FontSize="24"/>
 
     </Grid>
 </Window>

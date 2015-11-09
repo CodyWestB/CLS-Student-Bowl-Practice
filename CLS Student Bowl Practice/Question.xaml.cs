@@ -29,8 +29,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void question_onLoad(object sender, RoutedEventArgs e)
         {
-            lblCategory.Content = QuestionSelect.categoryNumber[0];
-            lblAmount.Content = QuestionSelect.categoryNumber[1];
+            lblCategory.Content = MainWindow.selectedQuestion[3];
+            lblAmount.Content = MainWindow.selectedQuestion[4];
         }
 
         internal QuestionSelect getNewCategory()

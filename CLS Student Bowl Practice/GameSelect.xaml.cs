@@ -21,8 +21,6 @@ namespace CLS_Student_Bowl_Practice
     {
         private MainWindow game = null;
 
-        public static int gameNumber;
-
         public GameSelect()
         {
             InitializeComponent();
@@ -30,35 +28,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void gameSelect_onLoad(object sender, RoutedEventArgs e)
         {
-            if (MainWindow.type == 1)
-            {
-                lblType.Content = "MLS";
-            }
-
-            if (MainWindow.type == 2)
-            {
-                lblType.Content = "MLT";
-            }
-
-            if (MainWindow.year == 1)
-            {
-                lblYear.Content = "Year A";
-            }
-
-            if (MainWindow.year == 2)
-            {
-                lblYear.Content = "Year B";
-            }
-
-            if (MainWindow.year == 3)
-            {
-                lblYear.Content = "Year C";
-            }
-
-            if (MainWindow.year == 4)
-            {
-                lblYear.Content = "Year D";
-            }
+            lblType.Content = MainWindow.selectedQuestion[0];
+            lblYear.Content = MainWindow.selectedQuestion[1];
         }
 
         internal MainWindow getNewGame()
@@ -74,7 +45,7 @@ namespace CLS_Student_Bowl_Practice
 
         private void btn1_Click(object sender, RoutedEventArgs e)
         {
-            gameNumber = 1;
+            MainWindow.selectedQuestion[2] = "1";
 
             this.Visibility = Visibility.Collapsed;
             QuestionSelect newQuestion = new QuestionSelect();
@@ -85,7 +56,7 @@ namespace CLS_Student_Bowl_Practice
 
         private void btn2_Click(object sender, RoutedEventArgs e)
         {
-            gameNumber = 2;
+            MainWindow.selectedQuestion[2] = "2";
 
             this.Visibility = Visibility.Collapsed;
             QuestionSelect newQuestion = new QuestionSelect();
@@ -96,7 +67,7 @@ namespace CLS_Student_Bowl_Practice
 
         private void btn3_Click(object sender, RoutedEventArgs e)
         {
-            gameNumber = 3;
+            MainWindow.selectedQuestion[2] = "3";
 
             this.Visibility = Visibility.Collapsed;
             QuestionSelect newQuestion = new QuestionSelect();
@@ -107,7 +78,7 @@ namespace CLS_Student_Bowl_Practice
 
         private void btn4_Click(object sender, RoutedEventArgs e)
         {
-            gameNumber = 4;
+            MainWindow.selectedQuestion[2] = "4";
 
             this.Visibility = Visibility.Collapsed;
             QuestionSelect newQuestion = new QuestionSelect();
@@ -118,7 +89,7 @@ namespace CLS_Student_Bowl_Practice
 
         private void btn5_Click(object sender, RoutedEventArgs e)
         {
-            gameNumber = 5;
+            MainWindow.selectedQuestion[2] = "5";
 
             this.Visibility = Visibility.Collapsed;
             QuestionSelect newQuestion = new QuestionSelect();
@@ -129,7 +100,7 @@ namespace CLS_Student_Bowl_Practice
 
         private void btn6_Click(object sender, RoutedEventArgs e)
         {
-            gameNumber = 6;
+            MainWindow.selectedQuestion[2] = "6";
 
             this.Visibility = Visibility.Collapsed;
             QuestionSelect newQuestion = new QuestionSelect();
@@ -140,7 +111,7 @@ namespace CLS_Student_Bowl_Practice
 
         private void btn7_Click(object sender, RoutedEventArgs e)
         {
-            gameNumber = 7;
+            MainWindow.selectedQuestion[2] = "7";
 
             this.Visibility = Visibility.Collapsed;
             QuestionSelect newQuestion = new QuestionSelect();
@@ -151,7 +122,7 @@ namespace CLS_Student_Bowl_Practice
 
         private void btn8_Click(object sender, RoutedEventArgs e)
         {
-            gameNumber = 8;
+            MainWindow.selectedQuestion[2] = "8";
 
             this.Visibility = Visibility.Collapsed;
             QuestionSelect newQuestion = new QuestionSelect();
