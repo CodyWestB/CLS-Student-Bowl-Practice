@@ -21,13 +21,17 @@ namespace CLS_Student_Bowl_Practice
     {
         private GameSelect question = null;
 
-        public static string[] categoryNumber = new string[2];
-
         public QuestionSelect()
         {
             InitializeComponent();
         }
-        
+
+        private void questionSelect_onLoad(object sender, RoutedEventArgs e)
+        {
+            lblType.Content = MainWindow.selectedQuestion[1];
+            lblYear.Content = MainWindow.selectedQuestion[0];
+        }
+
         internal GameSelect getNewQuestion()
         {
             this.ShowDialog();
@@ -36,8 +40,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnBlood5_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Blood Bank";
-            categoryNumber[1] = "5";
+            MainWindow.selectedQuestion[3] = "Blood Bank";
+            MainWindow.selectedQuestion[4] = "5";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -48,8 +52,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnBodyFluids5_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Body Fluids";
-            categoryNumber[1] = "5";
+            MainWindow.selectedQuestion[3] = "Body Fluids";
+            MainWindow.selectedQuestion[4] = "5";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -60,8 +64,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnChemistry5_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Chemistry";
-            categoryNumber[1] = "5";
+            MainWindow.selectedQuestion[3] = "Chemistry";
+            MainWindow.selectedQuestion[4] = "5";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -72,8 +76,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnCoagulation5_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Coagulation";
-            categoryNumber[1] = "5";
+            MainWindow.selectedQuestion[3] = "Coagulation";
+            MainWindow.selectedQuestion[4] = "5";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -84,8 +88,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnHematology5_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Hematology";
-            categoryNumber[1] = "5";
+            MainWindow.selectedQuestion[3] = "Hematology";
+            MainWindow.selectedQuestion[4] = "5";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -96,8 +100,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnImmunology5_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Immunology";
-            categoryNumber[1] = "5";
+            MainWindow.selectedQuestion[3] = "Immunology";
+            MainWindow.selectedQuestion[4] = "5";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -108,8 +112,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnLab5_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Lab Operations";
-            categoryNumber[1] = "5";
+            MainWindow.selectedQuestion[3] = "Lab Operations";
+            MainWindow.selectedQuestion[4] = "5";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -120,8 +124,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnMicro5_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Micro/Parasit/Mycol";
-            categoryNumber[1] = "5";
+            MainWindow.selectedQuestion[3] = "Micro/Parasit/Mycol";
+            MainWindow.selectedQuestion[4] = "5";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -132,8 +136,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnBlood10_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Blood Bank";
-            categoryNumber[1] = "10";
+            MainWindow.selectedQuestion[3] = "Blood Bank";
+            MainWindow.selectedQuestion[4] = "10";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -144,8 +148,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnBodyFluids10_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Body Fluids";
-            categoryNumber[1] = "10";
+            MainWindow.selectedQuestion[3] = "Body Fluids";
+            MainWindow.selectedQuestion[4] = "10";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -156,8 +160,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnChemisty10_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Chemistry";
-            categoryNumber[1] = "10";
+            MainWindow.selectedQuestion[3] = "Chemistry";
+            MainWindow.selectedQuestion[4] = "10";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -168,8 +172,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnCoagulation10_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Coagulation";
-            categoryNumber[1] = "10";
+            MainWindow.selectedQuestion[3] = "Coagulation";
+            MainWindow.selectedQuestion[4] = "10";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -180,8 +184,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnHematology10_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Hematology";
-            categoryNumber[1] = "10";
+            MainWindow.selectedQuestion[3] = "Hematology";
+            MainWindow.selectedQuestion[4] = "10";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -192,8 +196,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnImmunology10_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Immunology";
-            categoryNumber[1] = "10";
+            MainWindow.selectedQuestion[3] = "Immunology";
+            MainWindow.selectedQuestion[4] = "10";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -204,8 +208,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnLab10_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Lab Operations";
-            categoryNumber[1] = "10";
+            MainWindow.selectedQuestion[3] = "Lab Operations";
+            MainWindow.selectedQuestion[4] = "10";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -216,8 +220,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnMicro10_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Micro/Parasit/Mycol";
-            categoryNumber[1] = "10";
+            MainWindow.selectedQuestion[3] = "Micro/Parasit/Mycol";
+            MainWindow.selectedQuestion[4] = "10";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -228,8 +232,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnBlood20_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Blood Bank";
-            categoryNumber[1] = "20";
+            MainWindow.selectedQuestion[3] = "Blood Bank";
+            MainWindow.selectedQuestion[4] = "20";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -240,8 +244,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnBody20_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Body Fluids";
-            categoryNumber[1] = "20";
+            MainWindow.selectedQuestion[3] = "Body Fluids";
+            MainWindow.selectedQuestion[4] = "20";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -252,8 +256,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnChemisty20_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Chemistry";
-            categoryNumber[1] = "20";
+            MainWindow.selectedQuestion[3] = "Chemistry";
+            MainWindow.selectedQuestion[4] = "20";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -264,8 +268,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnCoagulation20_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Coagulation";
-            categoryNumber[1] = "20";
+            MainWindow.selectedQuestion[3] = "Coagulation";
+            MainWindow.selectedQuestion[4] = "20";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -276,8 +280,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnHematology20_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Hematology";
-            categoryNumber[1] = "20";
+            MainWindow.selectedQuestion[3] = "Hematology";
+            MainWindow.selectedQuestion[4] = "20";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -288,8 +292,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnImmunology20_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Immunology";
-            categoryNumber[1] = "20";
+            MainWindow.selectedQuestion[3] = "Immunology";
+            MainWindow.selectedQuestion[4] = "20";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -300,8 +304,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnLab20_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Lab Operations";
-            categoryNumber[1] = "20";
+            MainWindow.selectedQuestion[3] = "Lab Operations";
+            MainWindow.selectedQuestion[4] = "20";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
@@ -312,8 +316,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void btnMicro20_Click(object sender, RoutedEventArgs e)
         {
-            categoryNumber[0] = "Micro/Parasit/Mycol";
-            categoryNumber[1] = "20";
+            MainWindow.selectedQuestion[3] = "Micro/Parasit/Mycol";
+            MainWindow.selectedQuestion[4] = "20";
 
             this.Visibility = Visibility.Collapsed;
             Question newCategory = new Question();
