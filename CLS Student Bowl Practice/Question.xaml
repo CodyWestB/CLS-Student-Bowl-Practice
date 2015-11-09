@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CLS_Student_Bowl_Practice"
         mc:Ignorable="d"
-        Title="Question" Height="500" Width="750">
+        Title="Question" Height="500" Width="750"
+        Loaded="question_onLoad">
     <Grid>
-        
+        <Label x:Name="lblCategory" Content="Category" HorizontalAlignment="Left" Margin="217,42,0,0" VerticalAlignment="Top" Width="112" FontSize="24"/>
+        <Label x:Name="lblAmount" Content="##" HorizontalAlignment="Left" Margin="372,42,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label x:Name="lblPoints" Content="points" HorizontalAlignment="Left" Margin="415,42,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="127,132,0,0" TextWrapping="Wrap" Text="Questions get displayed in this text block. They may be long or they may be short but this text block represents where all of them will go." VerticalAlignment="Top" Height="178" Width="495" FontSize="16"/>
+        <CheckBox x:Name="cbTeamA" Content="Team A" FlowDirection="RightToLeft" HorizontalAlignment="Left" Margin="212,394,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <CheckBox x:Name="cbTeamB" Content="Team B" FlowDirection="RightToLeft" HorizontalAlignment="Left" Margin="384,394,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="lblTimeRemaining" Content="Time Remaining" HorizontalAlignment="Left" Margin="612,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="623,42,0,0" TextWrapping="Wrap" Text="30:00" VerticalAlignment="Top" FontSize="16" Width="109"/>
+
     </Grid>
 </Window>

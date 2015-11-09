@@ -34,3 +34,11 @@ D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debu
 D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice.g.resources
 D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\CLS_Student_Bowl_Practice.Properties.Resources.resources
 D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\obj\Debug\CLS Student Bowl Practice.csproj.GenerateResource.Cache
+D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\bin\Debug\EntityFramework.dll
+D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\bin\Debug\System.Data.SQLite.dll
+D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\bin\Debug\EntityFramework.xml
+D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\GitHub\CLS-Student-Bowl-Practice\CLS Student Bowl Practice\bin\Debug\System.Data.SQLite.xml
