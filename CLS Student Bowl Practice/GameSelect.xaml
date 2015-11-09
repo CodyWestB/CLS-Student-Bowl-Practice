@@ -7,19 +7,21 @@
         mc:Ignorable="d"
         Title="GameSelect" Height="500" Width="750"
         Loaded="gameSelect_onLoad">
-    <Grid>
-        <Label x:Name="lblType" Content="###" HorizontalAlignment="Left" Margin="335,29,0,0" VerticalAlignment="Top" FontSize="24"/>
-        <Label x:Name="lblYear" Content="Year #" HorizontalAlignment="Left" Margin="325,76,0,0" VerticalAlignment="Top" FontSize="24"/>
-        <Label x:Name="lblGame" Content="Game" HorizontalAlignment="Left" Margin="335,199,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <Button x:Name="btn1" Content="1" HorizontalAlignment="Left" Margin="47,263,0,0" VerticalAlignment="Top" Width="75" Click="btn1_Click"/>
-        <Button x:Name="btn2" Content="2" HorizontalAlignment="Left" Margin="127,263,0,0" VerticalAlignment="Top" Width="75" Click="btn2_Click"/>
-        <Button x:Name="btn3" Content="3" HorizontalAlignment="Left" Margin="207,263,0,0" VerticalAlignment="Top" Width="75" Click="btn3_Click"/>
-        <Button x:Name="btn4" Content="4" HorizontalAlignment="Left" Margin="287,263,0,0" VerticalAlignment="Top" Width="75" Click="btn4_Click"/>
-        <Button x:Name="btn5" Content="5" HorizontalAlignment="Left" Margin="367,263,0,0" VerticalAlignment="Top" Width="75" Click="btn5_Click"/>
-        <Button x:Name="btn6" Content="6" HorizontalAlignment="Left" Margin="447,263,0,0" VerticalAlignment="Top" Width="75" Click="btn6_Click"/>
-        <Button x:Name="btn7" Content="7" HorizontalAlignment="Left" Margin="527,263,0,0" VerticalAlignment="Top" Width="75" Click="btn7_Click"/>
-        <Button x:Name="btn8" Content="8" HorizontalAlignment="Left" Margin="607,263,0,0" VerticalAlignment="Top" Width="75" Click="btn8_Click"/>
-        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="624,417,0,0" VerticalAlignment="Top" Width="75" Click="btnExit_Click"/>
+    <Viewbox >
+        <Grid Width="715" Height="454">
+            <Label x:Name="lblType" Content="###" HorizontalAlignment="Left" Margin="335,29,0,0" VerticalAlignment="Top" FontSize="24"/>
+            <Label x:Name="lblYear" Content="Year #" HorizontalAlignment="Left" Margin="325,76,0,0" VerticalAlignment="Top" FontSize="24"/>
+            <Label x:Name="lblGame" Content="Game" HorizontalAlignment="Left" Margin="335,199,0,0" VerticalAlignment="Top" FontSize="16"/>
+            <Button x:Name="btn1" Content="1" HorizontalAlignment="Left" Margin="47,263,0,0" VerticalAlignment="Top" Width="75" Click="btn1_Click"/>
+            <Button x:Name="btn2" Content="2" HorizontalAlignment="Left" Margin="127,263,0,0" VerticalAlignment="Top" Width="75" Click="btn2_Click"/>
+            <Button x:Name="btn3" Content="3" HorizontalAlignment="Left" Margin="207,263,0,0" VerticalAlignment="Top" Width="75" Click="btn3_Click"/>
+            <Button x:Name="btn4" Content="4" HorizontalAlignment="Left" Margin="287,263,0,0" VerticalAlignment="Top" Width="75" Click="btn4_Click"/>
+            <Button x:Name="btn5" Content="5" HorizontalAlignment="Left" Margin="367,263,0,0" VerticalAlignment="Top" Width="75" Click="btn5_Click"/>
+            <Button x:Name="btn6" Content="6" HorizontalAlignment="Left" Margin="447,263,0,0" VerticalAlignment="Top" Width="75" Click="btn6_Click"/>
+            <Button x:Name="btn7" Content="7" HorizontalAlignment="Left" Margin="527,263,0,0" VerticalAlignment="Top" Width="75" Click="btn7_Click"/>
+            <Button x:Name="btn8" Content="8" HorizontalAlignment="Left" Margin="607,263,0,0" VerticalAlignment="Top" Width="75" Click="btn8_Click"/>
+            <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="621,411,0,0" VerticalAlignment="Top" Width="75" Click="btnExit_Click"/>
 
-    </Grid>
+        </Grid>
+    </Viewbox>
 </Window>

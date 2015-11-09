@@ -7,13 +7,15 @@
         mc:Ignorable="d"
         Title="ASCLS - WI Student Bowl" Height="500" Width="750"
         Loaded="mainWindow_onLoad">
-    <Grid x:Name="gridMainWindow">
-        <Label x:Name="lblASCLS" Content="ASCLS - WI" HorizontalAlignment="Stretch" Margin="318,80,208,0" VerticalAlignment="Top" FontSize="24" Grid.Column="1" Height="42"/>
-        <Label x:Name="lblStudentBowl" Content="Student Bowl" HorizontalAlignment="Stretch" Margin="307,127,208,0" VerticalAlignment="Top" FontSize="24" Grid.Column="1" Height="42"/>
-        <ComboBox x:Name="cmbYear" HorizontalAlignment="Stretch" Margin="343,246,233,0" VerticalAlignment="Top" SelectionChanged="cmbYear_SelectionChanged" Grid.Column="1" Height="22"/>
-        <Label x:Name="lblYear" Content="Select Year:" Margin="155,237,472,0" VerticalAlignment="Top" FontSize="16" Grid.Column="1" Height="31"/>
-        <Label x:Name="lblQuestionType" Content="Select Question Type:" HorizontalAlignment="Stretch" Margin="86,312,472,0" VerticalAlignment="Top" FontSize="16" Grid.Column="1" Height="31"/>
-        <Button x:Name="btnMLS" Content="MLS" HorizontalAlignment="Stretch" Margin="345,319,322,0" VerticalAlignment="Top" Click="btnMLS_Click" Grid.Column="1" Height="20"/>
-        <Button x:Name="btnMLT" Content="MLT" HorizontalAlignment="Stretch" Margin="440,319,227,0" VerticalAlignment="Top" Click="btnMLT_Click" Grid.Column="1" Height="20"/>
-    </Grid>
+    <Viewbox >
+        <Grid x:Name="gridMainWindow" Height="477">
+            <Label x:Name="lblASCLS" Content="ASCLS - WI" HorizontalAlignment="Stretch" Margin="318,80,208,0" VerticalAlignment="Top" FontSize="24" Height="42"/>
+            <Label x:Name="lblStudentBowl" Content="Student Bowl" HorizontalAlignment="Stretch" Margin="307,127,208,0" VerticalAlignment="Top" FontSize="24" Height="42"/>
+            <ComboBox x:Name="cmbYear" HorizontalAlignment="Stretch" Margin="343,246,233,0" VerticalAlignment="Top" SelectionChanged="cmbYear_SelectionChanged" Height="22"/>
+            <Label x:Name="lblYear" Content="Select Year:" Margin="155,237,472,0" VerticalAlignment="Top" FontSize="16" Height="31"/>
+            <Label x:Name="lblQuestionType" Content="Select Question Type:" HorizontalAlignment="Stretch" Margin="86,312,472,0" VerticalAlignment="Top" FontSize="16" Height="31"/>
+            <Button x:Name="btnMLS" Content="MLS" HorizontalAlignment="Stretch" Margin="345,319,322,0" VerticalAlignment="Top" Click="btnMLS_Click" Height="20"/>
+            <Button x:Name="btnMLT" Content="MLT" HorizontalAlignment="Stretch" Margin="440,319,227,0" VerticalAlignment="Top" Click="btnMLT_Click" Height="20"/>
+        </Grid>
+    </Viewbox>
 </Window>

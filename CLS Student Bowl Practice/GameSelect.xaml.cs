@@ -28,8 +28,8 @@ namespace CLS_Student_Bowl_Practice
 
         private void gameSelect_onLoad(object sender, RoutedEventArgs e)
         {
-            lblType.Content = MainWindow.selectedQuestion[0];
-            lblYear.Content = MainWindow.selectedQuestion[1];
+            lblType.Content = MainWindow.selectedQuestion[1];
+            lblYear.Content = MainWindow.selectedQuestion[0];
         }
 
         internal MainWindow getNewGame()
